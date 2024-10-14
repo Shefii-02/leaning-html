@@ -1,0 +1,68 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+header .main-header{
+    background-color: black;
+    width: 100%;
+}
+header .main-header .container{
+    width: 95%;
+    margin:0 45px 0 45px;
+}
+header .main-header .container .nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 0 10px 0;
+}
+header .main-header .container .nav .logo{
+    margin-left: 20px;
+}
+header .main-header .container .nav .logo h2{
+    margin: 0 !important;
+    color: aliceblue;
+}
+header .main-header .container .nav .nav-links{
+    margin-right: 20px;
+}
+header .main-header .container .nav .nav-links ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    margin:0;
+}
+header .main-header .container .nav .nav-links ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.container{
+    width: 95%;
+    margin:0 45px 0 45px;
+}
+
+
+.container-fluid{
+    width: 100%;
+}
+
+
+.text-success{
+    color: green;
+}
+
+.bg-danger{
+    background: red;
+}
+
+.text-white{
+    color: white;
+}
+
+.mt-35{
+    margin-top: 35px;
+}
